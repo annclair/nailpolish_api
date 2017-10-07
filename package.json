@@ -1,0 +1,14 @@
+{
+  "name": "nailpolish_api",
+  "version": "1.0.0",
+  "description": "API for my nail ppolish angular app",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "author": "Anne-Claire Sebirou",
+  "license": "MIT",
+  "dependencies": {
+    
+  }
+}
