@@ -18,4 +18,4 @@
 
     npm run start
 
-    Read and create nailpolishs with postman on http://localhost:4000/api/nailpolishs/
+    Read, create and update nailpolishs with postman on http://localhost:4000/api/nailpolishs/ or with nailpolish app
