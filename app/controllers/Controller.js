@@ -43,6 +43,12 @@ class Controller {
         })
     }
 
+    delete(req, res, next) {
+        this.model.findByIdAndRemove(req.params.id, (err) => {
+            res.sendStatus(200)
+        })
+    }
+
 }
 
 module.exports = Controller

@@ -20,4 +20,8 @@ module.exports = (app) => {
     app.put('/nailpolishs/:id', (req, res, next) => {
         return ctrl.update(req, res, next)
     })
+
+    app.delete('/nailpolishs/:id', (req, res, next) => {
+        return ctrl.delete(req, res, next)
+    })
 }
