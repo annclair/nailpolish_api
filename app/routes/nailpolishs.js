@@ -17,4 +17,7 @@ module.exports = (app) => {
         return ctrl.create(req, res, next)
     })
 
+    app.put('/nailpolishs/:id', (req, res, next) => {
+        return ctrl.update(req, res, next)
+    })
 }

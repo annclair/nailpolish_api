@@ -31,6 +31,18 @@ class Controller {
         })
     }
 
+    update(req, res, next) {
+        this.model.update({
+            _id: req.params.id
+        }, req.body, (err, document) => {
+            if (err) {
+                next(err)
+            } else {
+                res.sendStatus(200)
+            }
+        })
+    }
+
 }
 
 module.exports = Controller
