@@ -17,6 +17,10 @@ let nailpolishModel = mongoose.model('Nailpolish', new mongoose.Schema({
     category: {
         type: String
     },
+    image: {
+        type: String,
+        default: "P71017-123241_fhhuco.jpg"
+    }
 }, {
         timestamps: true
     }))
